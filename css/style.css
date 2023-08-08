@@ -1,0 +1,42 @@
+.main-nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center; }
+  .main-nav__logo {
+    padding-right: 2rem;
+    height: 10%;
+    width: 10%; }
+  .main-nav__nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center; }
+    .main-nav__nav-list {
+      margin-left: 3.5rem;
+      margin: 0 0.5rem;
+      list-style: none; }
+  .main-nav__icon-list {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center; }
+    .main-nav__icon-list__icon {
+      font-size: 1.6rem;
+      margin: 0 0.5rem; }
+
+.green-ribbon {
+  margin: 0;
+  background-color: #9bf00b !important;
+  height: 3.2rem;
+  display: flex;
+  justify-content: center;
+  align-items: center; }
+  .green-ribbon__text {
+    text-align: center;
+    font-size: 1.2rem;
+    line-height: 1.7;
+    font-weight: bold; }
+  .green-ribbon__icon {
+    text-align: center;
+    font-size: 1.2rem; }
