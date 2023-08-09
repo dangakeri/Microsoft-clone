@@ -1,0 +1,26 @@
+.offers__item {
+    margin: 3rem 3rem;
+    display: flex;
+
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    &-title{
+        color: #0067b8;
+        font-size: 1.6rem;
+        font-weight: 600;
+        font-family: inherit;
+        text-align: center !important;
+        border-bottom: 0.15rem solid #0067b8;
+    }
+    &-img{
+        vertical-align: middle;
+        height: auto;
+        margin-bottom: 1rem;
+    }
+
+}
+
+   
