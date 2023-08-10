@@ -21,6 +21,7 @@
   height: 85vh;
   display: grid;
   grid-template-columns: minmax(0, 2fr) 2fr;
+  cursor: pointer;
 
   &__items {
     padding: 20rem 15rem;
@@ -32,6 +33,7 @@
       font-weight: 600;
       margin-top: 2.4rem;
       border: none;
+      cursor: pointer;
     }
   }
 }

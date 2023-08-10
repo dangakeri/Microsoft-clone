@@ -146,7 +146,8 @@ html {
   padding: 12rem 10rem;
   margin-bottom: 2rem;
   display: grid;
-  grid-template-columns: 1fr 2fr; }
+  grid-template-columns: 1fr 2fr;
+  cursor: pointer; }
   .corousel__back-to-school {
     background-color: #ff5c39;
     color: #000;
@@ -176,7 +177,8 @@ html {
   padding: 4.8rem;
   display: grid;
   grid-template-columns: minmax(0, 54rem) 2fr;
-  margin-bottom: 0; }
+  margin-bottom: 0;
+  cursor: pointer; }
   .corousel-2-items {
     margin: 4.8rem;
     padding: 4.8rem;
@@ -230,7 +232,8 @@ html {
     font-weight: 600;
     font-family: inherit;
     text-align: center !important;
-    border-bottom: 0.15rem solid #0067b8; }
+    border-bottom: 0.15rem solid #0067b8;
+    cursor: pointer; }
   .offers__item-img {
     vertical-align: middle;
     height: auto;
@@ -239,7 +242,8 @@ html {
 .card {
   display: flex;
   flex-direction: column;
-  align-items: flex-start; }
+  align-items: flex-start;
+  cursor: pointer; }
   .card__img {
     width: 100%; }
   .card__link {
@@ -276,7 +280,8 @@ html {
     font-family: inherit; }
   .socials__icon {
     font-size: 2.4rem;
-    margin-left: 2rem; }
+    margin-left: 2rem;
+    cursor: pointer; }
 
 .back-to-top {
   margin: 4.8rem;
@@ -317,7 +322,8 @@ html {
   background-position: center;
   height: 85vh;
   display: grid;
-  grid-template-columns: minmax(0, 2fr) 2fr; }
+  grid-template-columns: minmax(0, 2fr) 2fr;
+  cursor: pointer; }
   .section-preorder__items {
     padding: 20rem 15rem; }
     .section-preorder__items-btn {
@@ -327,7 +333,8 @@ html {
       padding: 1.6rem;
       font-weight: 600;
       margin-top: 2.4rem;
-      border: none; }
+      border: none;
+      cursor: pointer; }
 
 .card-title {
   margin: 5.6rem 4.8rem; }
