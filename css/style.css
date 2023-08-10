@@ -106,7 +106,7 @@ html {
   width: 100vw;
   overflow: hidden;
   padding: 12rem 10rem;
-  margin-bottom: 2.0rem;
+  margin-bottom: 2rem;
   display: grid;
   grid-template-columns: 1fr 2fr; }
   .corousel__back-to-school {
@@ -226,6 +226,19 @@ html {
       color: #0067b8;
       font-size: 1.6rem;
       margin-top: 2rem; }
+
+.socials {
+  margin: 4.8rem;
+  display: flex;
+  flex-direction: row;
+  align-items: center; }
+  .socials p {
+    font-size: 1.6rem;
+    font-weight: 400;
+    font-family: inherit; }
+  .socials__icon {
+    font-size: 2.4rem;
+    margin-left: 2rem; }
 
 .section-offers {
   margin: 4.8rem;

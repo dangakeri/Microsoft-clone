@@ -7,7 +7,7 @@
   width: 100vw;
   overflow: hidden;
   padding: 12rem 10rem;
-  margin-bottom: 2.0rem;
+  margin-bottom: 2rem;
   display: grid;
   grid-template-columns: 1fr 2fr;
   &__back-to-school {
@@ -31,7 +31,7 @@
     margin-top: 3rem;
   }
 }
-.corousel-2{
+.corousel-2 {
   margin: 4.8rem;
   background-image: url(/img/courosel-img-2.avif);
   background-size: cover;
@@ -40,10 +40,10 @@
   height: 85vh;
   padding: 4.8rem;
   display: grid;
-  grid-template-columns: minmax(0,54rem)  2fr;
+  grid-template-columns: minmax(0, 54rem) 2fr;
   margin-bottom: 0;
- 
-  &-items{
+
+  &-items {
     margin: 4.8rem;
     padding: 4.8rem;
     background-color: #fff;
@@ -59,4 +59,3 @@
     }
   }
 }
-
