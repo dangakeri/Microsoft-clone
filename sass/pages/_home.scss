@@ -15,7 +15,7 @@
 .section-preorder {
   margin: 4.8rem;
   background-image: url(/img/xbox-preorder.avif);
-  background-size: contain;
+  background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
   height: 85vh;
@@ -24,7 +24,7 @@
 
   &__items {
     padding: 20rem 15rem;
-    margin: 0 auto;
+    // margin: 0 auto;
     &-btn {
       color: #fff !important;
       background-color: #0067b8;
